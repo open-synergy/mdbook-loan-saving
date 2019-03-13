@@ -14,3 +14,12 @@ before_script:
 
 script:
   - cd ${TRAVIS_BUILD_DIR} && mdbook build && mdbook test
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: ${TRAVIS_BUILD_DIR}/book
+  keep-history: false
+  on:
+    branch: master
