@@ -84,11 +84,11 @@ Akun yng akan digunakan untuk pembulatan
 
 #### Interest Journal
 
-#TODO
+Buku jurnal yang digunakan untuk mencatat penjurnalan realisasi bunga pinjaman
 
 #### Interest Account
 
-#TODO
+Akun yang akan digunakan pada penjurnalan realisasi bunga pinjaman. Akun ini akan dikredit pada 
 
 #### Interest Income Account
 
