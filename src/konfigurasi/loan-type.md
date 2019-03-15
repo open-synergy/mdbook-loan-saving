@@ -6,27 +6,27 @@
 
 ![](../img/loan-type/utama.png)
 
-#### Loan Type
+#### <a name="field-name">Loan Type</a>
 
 Nama tipe pinjaman. Wajib diisi.
 
-#### Loan Type Code
+#### <a name="field-code">Loan Type Code</a>
 
 Kode tipe pinjaman. Wajib Diisi.
 
-#### Active
+#### <a name="field-active">Active</a>
 
 Aktifkan jika data tipe pinjaman masih aktif digunakan. Non aktifkan jika tipe pinjaman
 sudah tidak digunakan lagi.
 
-#### Direction
+#### <a name="field-direction">Direction</a>
 
 Pilihan yang dimungkinkan:
 
 * **In**: Pinjaman dari pihak lain kepada perusahaan
 * **Out**: Pinjaman dari perusahaan kepada pihak lain
 
-#### Sequence
+#### <a name="field-sequence">Sequence</a>
 
 Sequence yang digunakan untuk penomeran pinjaman. Tidak wajib diisi.
 
@@ -36,7 +36,7 @@ Sequence yang digunakan untuk penomeran pinjaman. Tidak wajib diisi.
 
 ![](../img/loan-type/loan-configuration.png)
 
-#### Interest Method
+#### <a name="field-interest-method">Interest Method</a>
 
 Metode perhitungan bunga pinjaman. Wajib diisi. Pilihan yang dimungkinkan:
 
@@ -44,15 +44,15 @@ Metode perhitungan bunga pinjaman. Wajib diisi. Pilihan yang dimungkinkan:
 * **Anuity**
 * **Effective**
 
-#### Maximum Loan Amount
+#### <a name="field-maximum-loan-amount">Maximum Loan Amount</a>
 
 Nilai maksimum pinjaman. Wajib diisi.
 
-#### Intereset Amount
+#### <a name="field-interest-amount">Intereset Amount</a>
 
 Bunga pinjaman (p.a) dalam persen. Wajib diisi.
 
-#### Maximum Installment Amount
+#### <a name="field-maximum-installment-amount">Maximum Installment Amount</a>
 
 Maksimum tenor pinjaman dalam bulan. Wajib diisi.
 
@@ -61,36 +61,36 @@ Maksimum tenor pinjaman dalam bulan. Wajib diisi.
 
 ![](../img/loan-type/accounting-configuration.png)
 
-#### Realization Journal
+#### <a name="field-realization-journal">Realization Journal</a>
 
 Buku jurnal yang akan digunakan untuk mencatat penjurnalan realiasi pinjaman. Tidak wajib diisi.
 
-#### Realization Account
+#### <a name="field-realization-account">Realization Account</a>
 
-Akun yang akan digunakan pada penjunalan realisasi pinjaman. Pada **loan in** akun ini akan didebit sedangkan 
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Pada **loan in** akun ini akan didebit sedangkan
 pada **loan out** akun ini akan dikredit. Akun ini akan didebit/dikredit sebesar **Loan Amount***. Tidak wajib diisi.
 
-#### Short-Term Principle Account
+#### <a name="field-short-term-principle-account">Short-Term Principle Account</a>
 
 Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x journal item pada penjurnalan realisasi pinjaman. n sama dengan jumlah payment schedule yang jatuh tempo setahun semenjak tanggal realisasi. Pada **loan in** akun ini akan dikredit sedangkan pada **loan out** akun ini akan didebit. Akun ini akan didebit/dikredit sebesar **Loan Amount***. Tidak wajib diisi.
 
-#### Long-Term Principle Account
+#### <a name="field-long-term-principle-account">Long-Term Principle Account</a>
 
 Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x journal item pada penjurnalan realisasi pinjaman. n sama dengan jumlah payment schedule yang jatuh tempo lebih dari setahun semenjak tanggal realisasi. Pada **loan in** akun ini akan dikredit sedangkan pada **loan out** akun ini akan didebit. Akun ini akan didebit/dikredit sebesar **Loan Amount***. Tidak wajib diisi.
 
-#### Rounding Principle Account
+#### <a name="field-rounding-principle-account">Rounding Principle Account</a>
 
 Akun yng akan digunakan untuk pembulatan. Tidak wajib diisi.
 
-#### Interest Journal
+#### <a name="field-interest-journal">Interest Journal</a>
 
 Buku jurnal yang digunakan untuk mencatat penjurnalan realisasi bunga pinjaman. Tidak wajib diisi.
 
-#### Interest Account
+#### <a name="field-interest-account">Interest Account</a>
 
 Akun yang akan digunakan pada penjurnalan realisasi bunga pinjaman. Akun ini akan dikredit pada **loan in** atau akan didebit pada **loan out**. Akun ini akan didebit/dikredit sejumlah interest amount payment schedule. Tidak wajib diisi.
 
-#### Interest Income Account
+#### <a name="field-interest-income-account">Interest Income Account</a>
 
 Akun yang akan digunakan pada penjurnalan realisasi bunga pinjaman. Akun ini akan didebit pada **loan in** atau akan dikredit pada **loan out**. Akun ini akan didebit/dikredit sejumlah interest amount payment schedule. Tidak wajib diisi.
 
@@ -98,18 +98,18 @@ Akun yang akan digunakan pada penjurnalan realisasi bunga pinjaman. Akun ini aka
 
 ![](../img/loan-type/workflow-configuration.png)
 
-#### Allow To Confirm Loan
+#### <a name="field-allow-confirm">Allow To Confirm Loan</a>
 
 Group-group yang usernya diperbolehkan untuk mengkonfirmasi pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat mengkonfirmasi data loan in/out. Tidak wajib diisi.
 
-#### Allow To Approve Loan
+#### <a name="field-allow-approve">Allow To Approve Loan</a>
 
 Group-group yang usernya diperbolehkan untuk menyetujui pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat menyetujui data loan in/out. Tidak wajib diisi.
 
-#### Allow To Cancel Loan
+#### <a name="field-allow-cancel">Allow To Cancel Loan</a>
 
 Group-group yang usernya diperbolehkan untuk membatalkan pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat membatalkan data loan in/out. Tidak wajib diisi.
 
-#### Allow To Restart Loan
+#### <a name="field-allow-restart">Allow To Restart Loan</a>
 
 Group-group yang usernya diperbolehkan untuk merestart pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat merestart data loan in/out. Tidak wajib diisi.
