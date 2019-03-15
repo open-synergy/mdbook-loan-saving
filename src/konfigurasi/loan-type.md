@@ -67,11 +67,12 @@ Buku jurnal yang akan digunakan untuk mencatat penjurnalan realiasi pinjaman. Ti
 
 #### Realization Account
 
-#TODO
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Pada **loan in** akun ini akan didebit sedangkan 
+pada **loan out** akun ini akan dikredit. Akun ini akan didebit/dikredit sebesar **Loan Amount***
 
 #### Short-Term Principle Account
 
-#TODO
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x journal item pada penjurnalan realisasi pinjaman. n sama dengan jumlah payment schedule yang jatuh tempo setahun semenjak tanggal realisasi. Pada **loan in** akun ini akan dikredit sedangkan pada **loan out** akun ini akan didebit. Akun ini akan didebit/dikredit sebesar **Loan Amount***
 
 #### Long-Term Principle Account
 
