@@ -16,13 +16,13 @@ Nomor dokumen *loan out*. Biarkan terisi dengan / apabila nomor dokumen ingin di
 dengan penomeran otomatis. Ubah dengan nomor yang dikehendaki jika tidak menginginkan
 penomeran oromatis
 
-> Wajib diisi
+Wajib diisi
 
 #### Company
 
 Pemilik dokumen *loan out*. Hanya terlihat dalam skenario *multi-company*
 
-> Wajib diisi
+Wajib diisi
 
 #### Realization Request Date
 
@@ -90,17 +90,25 @@ Wajib diisi
 
 Tanggal jatuh tempo cicilan
 
+Tidak dapat diubah/hanya informasi
+
 #### Priciple Amount
 
 Jumlah pokok pinjaman yang harus dibayar
+
+Tidak dapat diubah/hanya informasi
 
 #### Interest Amount
 
 Jumlah bunga pinjaman yang harus dibayar
 
+Tidak dapat diubah/hanya informasi
+
 #### Installment Amount
 
 Jumlah cicilan (pokok pinjaman + bunga pinjaman)
+
+Tidak dapat diubah/hanya informasi
 
 #### Principle Payment State
 
@@ -110,6 +118,8 @@ Status pembayaran pokok pinjaman. Status yang dimungkinkan adalah:
 * **Partial Paid**. Sudah dibayar sebagian.
 * **Paid**. Sudah dibayar
 
+Tidak dapat diubah/hanya informasi
+
 #### Interest Payment State
 
 Status pembayaran bunga pinjaman. Status yang dimungkinkan adalah:
@@ -117,6 +127,8 @@ Status pembayaran bunga pinjaman. Status yang dimungkinkan adalah:
 * **Unpaid**. Belum dibayar sama sekali
 * **Partial Paid**. Sudah dibayar sebagian.
 * **Paid**. Sudah dibayar
+
+Tidak dapat diubah/hanya informasi
 
 ### A.4 Summary
 
@@ -131,5 +143,28 @@ Tidak dapat diubah/hanya informasi
 #### Total Interest Amount
 
 Total bunga pinjaman
+
+Tidak dapat diubah/hanya informasi
+
+### A.5 Accounting
+
+![](../img/penjelasan-field-loan-out-tab-accounting.png)
+
+#### Realization Journal Entry
+
+Penjurnalan (*journal entry*) realizasi pinjaman.
+
+Tidak dapat diubah/hanya informasi
+
+#### Realization Move Line Header
+
+Baris penjurnalan (*journal item*) realizasi pinjaman. Journal item ini nantinya harus direkonsiliasi
+agar pinjaman dapat aktif.
+
+Tidak dapat diubah/hanya informasi
+
+#### Realized
+
+Aktif jika pinjaman sudah direalisasi. Non-aktif jika pinjaman masih menunggu realisasi.
 
 Tidak dapat diubah/hanya informasi

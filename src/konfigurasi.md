@@ -1,1 +1,4 @@
-# Chapter 1
+# Konfigurasi
+
+
+* [Loan Type](./konfigurasi/loan-type.md)

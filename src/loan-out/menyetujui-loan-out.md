@@ -10,7 +10,7 @@ Berikut adalah langkah-langkah untuk menyetujui *loan out*:
 3. Buka tab **Realization**
 ![](../img/tab-realization.png)
 4. Ubah **Realization Date** sesuai dengan rencana realisasi *loan out*
-5. Klik tombol **Save** pada bagian atas-kanan form
+5. Klik tombol **Save** pada bagian atas-kiri form
 ![](../img/tombol-save.png)
 6. Klik tombol **Approve** pada bagian atas-kanan form
 ![](../img/tombol-approve.png)
