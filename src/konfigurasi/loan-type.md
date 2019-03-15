@@ -67,32 +67,32 @@ Buku jurnal yang akan digunakan untuk mencatat penjurnalan realiasi pinjaman. Ti
 
 #### Realization Account
 
-#TODO
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Pada **loan in** akun ini akan didebit sedangkan 
+pada **loan out** akun ini akan dikredit. Akun ini akan didebit/dikredit sebesar **Loan Amount***. Tidak wajib diisi.
 
 #### Short-Term Principle Account
 
-#TODO
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x journal item pada penjurnalan realisasi pinjaman. n sama dengan jumlah payment schedule yang jatuh tempo setahun semenjak tanggal realisasi. Pada **loan in** akun ini akan dikredit sedangkan pada **loan out** akun ini akan didebit. Akun ini akan didebit/dikredit sebesar **Loan Amount***. Tidak wajib diisi.
 
 #### Long-Term Principle Account
 
-#TODO
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x journal item pada penjurnalan realisasi pinjaman. n sama dengan jumlah payment schedule yang jatuh tempo lebih dari setahun semenjak tanggal realisasi. Pada **loan in** akun ini akan dikredit sedangkan pada **loan out** akun ini akan didebit. Akun ini akan didebit/dikredit sebesar **Loan Amount***. Tidak wajib diisi.
 
 #### Rounding Principle Account
 
-#TODO
+Akun yng akan digunakan untuk pembulatan. Tidak wajib diisi.
 
 #### Interest Journal
 
-#TODO
+Buku jurnal yang digunakan untuk mencatat penjurnalan realisasi bunga pinjaman. Tidak wajib diisi.
 
 #### Interest Account
 
-#TODO
+Akun yang akan digunakan pada penjurnalan realisasi bunga pinjaman. Akun ini akan dikredit pada **loan in** atau akan didebit pada **loan out**. Akun ini akan didebit/dikredit sejumlah interest amount payment schedule. Tidak wajib diisi.
 
 #### Interest Income Account
 
-#TODO
-
+Akun yang akan digunakan pada penjurnalan realisasi bunga pinjaman. Akun ini akan didebit pada **loan in** atau akan dikredit pada **loan out**. Akun ini akan didebit/dikredit sejumlah interest amount payment schedule. Tidak wajib diisi.
 
 ### A.4. TAB WORKFLOW
 
@@ -100,16 +100,16 @@ Buku jurnal yang akan digunakan untuk mencatat penjurnalan realiasi pinjaman. Ti
 
 #### Allow To Confirm Loan
 
-#TODO
+Group-group yang usernya diperbolehkan untuk mengkonfirmasi pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat mengkonfirmasi data loan in/out. Tidak wajib diisi.
 
 #### Allow To Approve Loan
 
-#TODO
+Group-group yang usernya diperbolehkan untuk menyetujui pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat menyetujui data loan in/out. Tidak wajib diisi.
 
 #### Allow To Cancel Loan
 
-#TODO
+Group-group yang usernya diperbolehkan untuk membatalkan pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat membatalkan data loan in/out. Tidak wajib diisi.
 
 #### Allow To Restart Loan
 
-#TODO
+Group-group yang usernya diperbolehkan untuk merestart pinjaman. Jika dikosongkan maka tiap user yang dapat membuka data loan in/out dapat merestart data loan in/out. Tidak wajib diisi.
