@@ -76,11 +76,11 @@ Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x 
 
 #### Long-Term Principle Account
 
-#TODO
+Akun yang akan digunakan pada penjunalan realisasi pinjaman. Akan terbentuk n x journal item pada penjurnalan realisasi pinjaman. n sama dengan jumlah payment schedule yang jatuh tempo lebih dari setahun semenjak tanggal realisasi. Pada **loan in** akun ini akan dikredit sedangkan pada **loan out** akun ini akan didebit. Akun ini akan didebit/dikredit sebesar **Loan Amount***
 
 #### Rounding Principle Account
 
-#TODO
+Akun yng akan digunakan untuk pembulatan
 
 #### Interest Journal
 
