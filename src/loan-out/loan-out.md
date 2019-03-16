@@ -10,7 +10,7 @@ Loan Out dapat diakses melalui menu **Loan & Saving -> Loan -> Loan Out**
 
 ![](../img/penjelasan-field-loan-out-header.png)
 
-#### # Loan
+#### <a name="field-name"># Loan</a>
 
 Nomor dokumen *loan out*. Biarkan terisi dengan / apabila nomor dokumen ingin diisi
 dengan penomeran otomatis. Ubah dengan nomor yang dikehendaki jika tidak menginginkan
@@ -18,38 +18,44 @@ penomeran oromatis
 
 Wajib diisi
 
-#### Company
+#### <a name="field-company">Company</a>
 
 Pemilik dokumen *loan out*. Hanya terlihat dalam skenario *multi-company*
 
 Wajib diisi
 
-#### Realization Request Date
+#### <a name="field-partner">Partner</a>
+
+Debitur.
+
+Wajib diisi
+
+#### <a name="field-realization-request-date">Realization Request Date</a>
 
 Tanggal yang diinginkan oleh peminjamn agar pinjaman direalisasikan/dicairkan.
 
 Wajib diisi
 
-#### Loan Type
+#### <a name="field-type">Loan Type</a>
 
 Jenis pinjaman
 
 Wajib diisi
 
-#### Maximum Loan Amount
+#### <a name="field-maximum-loan-amount">Maximum Loan Amount</a>
 
 Batas pinjaman maksimal yang diizinkan. Jumlah ini akan disesuaikan oleh **Loan Type**
 yang dipilih
 
 Tidak dapat diubah/hanya informasi
 
-#### Loan Amount
+#### <a name="field-loan-amount">Loan Amount</a>
 
 Jumlah pinjaman yang diinginkan. Tidak boleh lebih dari **Maximum Loan Amount**
 
 Wajib diisi
 
-#### Maximum Installment Period
+#### <a name="field-maximum-installment-period">Maximum Installment Period</a>
 
 Tenor pinjaman maksimal yang diizinkan. Jumlah ini akan disesuaikan oleh **Loan Type**
 
@@ -57,26 +63,26 @@ Tenor pinjaman maksimal yang diizinkan. Jumlah ini akan disesuaikan oleh **Loan 
 
 ![](../img/penjelasan-field-loan-out-repayment-term.png)
 
-#### Date Payment
+#### <a name="field-date-payment">Date Payment</a>
 
 Tanggal pembayaran yang dikehendaki. Cicilan pembayaran akan selalu jatuh tempo
 pada tanggal ini tiap bulannya.
 
 Wajib diisi
 
-#### First Payment Date
+#### <a name="field-first-payment-date">First Payment Date</a>
 
 Tanggal cicilan ke-1
 
 Tidak dapat diubah/hanya informasi
 
-#### Interest (p.a)
+#### <a name="field-interest">Interest (p.a)</a>
 
 Bunga pinjaman pertahun dalam persen
 
 Wajib diisi
 
-#### Loan Period
+#### <a name="field-name">Loan Period</a>
 
 Tenor pinjaman
 
@@ -86,31 +92,31 @@ Wajib diisi
 
 ![](../img/penjelasan-field-loan-out-jadwal-pembayaran.png)
 
-#### Schedule Date
+#### <a name="field-schedule-date">Schedule Date</a>
 
 Tanggal jatuh tempo cicilan
 
 Tidak dapat diubah/hanya informasi
 
-#### Priciple Amount
+#### <a name="field-principle-amount">Priciple Amount</a>
 
 Jumlah pokok pinjaman yang harus dibayar
 
 Tidak dapat diubah/hanya informasi
 
-#### Interest Amount
+#### <a name="field-interest-amount">Interest Amount</a>
 
 Jumlah bunga pinjaman yang harus dibayar
 
 Tidak dapat diubah/hanya informasi
 
-#### Installment Amount
+#### <a name="field-installment-amount">Installment Amount</a>
 
 Jumlah cicilan (pokok pinjaman + bunga pinjaman)
 
 Tidak dapat diubah/hanya informasi
 
-#### Principle Payment State
+#### <a name="field-principle-payment-state">Principle Payment State</a>
 
 Status pembayaran pokok pinjaman. Status yang dimungkinkan adalah:
 
@@ -120,7 +126,7 @@ Status pembayaran pokok pinjaman. Status yang dimungkinkan adalah:
 
 Tidak dapat diubah/hanya informasi
 
-#### Interest Payment State
+#### <a name="field-interest-payment-state">Interest Payment State</a>
 
 Status pembayaran bunga pinjaman. Status yang dimungkinkan adalah:
 
@@ -134,13 +140,13 @@ Tidak dapat diubah/hanya informasi
 
 ![](../img/penjelasan-field-loan-out-total.png)
 
-#### Total Priciple Amount
+#### <a name="field-total-principle-amount">Total Priciple Amount</a>
 
 Total pokok pinjaman
 
 Tidak dapat diubah/hanya informasi
 
-#### Total Interest Amount
+#### <a name="field-total-interest-amount">Total Interest Amount</a>
 
 Total bunga pinjaman
 
@@ -150,20 +156,20 @@ Tidak dapat diubah/hanya informasi
 
 ![](../img/penjelasan-field-loan-out-tab-accounting.png)
 
-#### Realization Journal Entry
+#### <a name="field-realization-journal-entry">Realization Journal Entry</a>
 
 Penjurnalan (*journal entry*) realizasi pinjaman.
 
 Tidak dapat diubah/hanya informasi
 
-#### Realization Move Line Header
+#### <a name="field-realization-move-line-header">Realization Move Line Header</a>
 
 Baris penjurnalan (*journal item*) realizasi pinjaman. Journal item ini nantinya harus direkonsiliasi
 agar pinjaman dapat aktif.
 
 Tidak dapat diubah/hanya informasi
 
-#### Realized
+#### <a name="field-realized">Realized</a>
 
 Aktif jika pinjaman sudah direalisasi. Non-aktif jika pinjaman masih menunggu realisasi.
 
