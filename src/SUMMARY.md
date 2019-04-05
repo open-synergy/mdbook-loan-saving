@@ -1,5 +1,7 @@
 # Summary
 
+[Pra-Kata](./prakata.md)
+[Terminologi](./terminologi.md)
 - [Konfigurasi](./konfigurasi.md)
     - [Loan Type](./konfigurasi/loan-type.md)
         - [Utama](./konfigurasi/loan-type/utama.md)
